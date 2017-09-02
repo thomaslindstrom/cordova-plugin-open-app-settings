@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-open-app-settings",
+  "version": "0.1.0",
+  "description": "Open the settings app and show the settings for this application.",
+  "cordova": {
+    "id": "cordova-plugin-open-app-settings",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaslindstrom/cordova-plugin-open-app-settings.git"
+  },
+  "keywords": [
+    "cordova",
+    "open",
+    "app",
+    "settings",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Thomas Lindstrøm <t@hom.as>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaslindstrom/cordova-plugin-open-app-settings/issues"
+  },
+  "homepage": "https://github.com/thomaslindstrom/cordova-plugin-open-app-settings#readme"
+}

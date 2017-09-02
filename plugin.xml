@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="cordova-plugin-open-app-settings" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>OpenAppSettings</name>
+    <description>Open the settings app and show the settings for this application.</description>
+    <keywords>cordova,open,app,settings</keywords>
+    <js-module name="OpenAppSettings" src="www/OpenAppSettings.js">
+        <clobbers target="cordova.plugins.OpenAppSettings" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="OpenAppSettings">
+                <param name="ios-package" value="OpenAppSettings"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/OpenAppSettings.h" />
+        <source-file src="src/ios/OpenAppSettings.m" />
+    </platform>
+</plugin>
