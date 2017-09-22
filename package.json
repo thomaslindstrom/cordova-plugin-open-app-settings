@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-open-app-settings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Open the settings app and show the settings for this application.",
   "cordova": {
     "id": "cordova-plugin-open-app-settings",
